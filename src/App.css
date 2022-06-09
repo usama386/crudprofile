@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: #0067bb;
+}
+
+nav {
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileList {
+    display: flex;
+    list-style-type: none;
+}
+
+.profileList a {
+    padding-left: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.form-container {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #2c5e88;
+    padding: 50px 100px;
+}
+
+.data-container {
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    background-color: #2c5e88;
+    padding: 50px 100px;
+}
+
+table {
+    background-color: #ededed;
+}
+
+table td {
+    font-size: 20px;
+    padding-right: 15px;
+    color: #000
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.form-control input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+label {
+    padding-right: 20px;
+}
+
+.editBtn {
+    background-color: #2c5e88;
+    padding: 10px;
+    margin-left: 15px;
+    color: #fff;
+    cursor: pointer;
+}
